@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+}
+
+.header {
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding: 1rem;
+}
+
+.container {
+  margin: 100px;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer:hover .hibou {
+  opacity: 0.8;
+}
+
+.imgContainer:hover .panda {
+  opacity: 0.8;
+}
+
+.imgContainer:hover .text {
+  opacity: 1;
+  padding: 7px 40px;
+  border-radius: 3px;
+}
+
+/* .text:hover {
+  background-color: rgba(45, 163, 163, 1);
+} */
+
+.hibou {
+  transition: 0.5s ease;
+  width: 300px;
+}
+
+.text {
+  position: absolute;
+  border: 2px white solid;
+  background-color: rgba(45, 163, 163, 1);
+  padding: 2px 20px;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: grey;
+}
+
+.commentForm {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: auto;
+}
+
+.imgPanda {
+  width: 600px;
+}
