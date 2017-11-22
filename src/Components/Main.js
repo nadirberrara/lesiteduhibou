@@ -9,7 +9,7 @@ class Main extends React.Component {
   render() {
     return (
       <main className="container">
-        <h1>My website</h1>
+        <h1>Bienvenu sur Le Site Du Hibou</h1>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/hibou" component={Hibou} />
